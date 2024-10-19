@@ -1,0 +1,97 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+}
+
+.app {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.input-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+input {
+    width: 75%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    word-wrap: break-word;
+}
+
+button {
+    padding: 5px 40px;
+    font-size: 14px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+
+.columnas {
+    display: flex;
+    justify-content: space-between;
+}
+
+.columna {
+    width: 30%;
+    background-color: #f1f1f1;
+    padding: 10px;
+    border-radius: 5px;
+    word-wrap: break-word;
+}
+
+h2 {
+    text-align: center;
+}
+
+.tarea {
+    background-color: white;
+    padding: 5px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    word-wrap: break-word;
+    word-break: break-all;
+}
+
+.tarea button {
+    background-color: #007bff;
+    border: none;
+    color: white;
+    padding: 3px 6px;
+    cursor: pointer;
+    border-radius: 3px;
+    font-size: 12px;
+}
+
+.tarea .completado {
+    background-color: #ff3232;
+    cursor: default;
+    padding: 3px 6px;
+    font-size: 12px;
+}
+
+.tarea .completar {
+    margin: 2px;
+}
